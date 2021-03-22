@@ -1,0 +1,15 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+//    "./src/hello/**/*"
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["dom"],
+    "outDir": "./dist",
+//    "outFile": "./dist/index.js"
+  }
+}
